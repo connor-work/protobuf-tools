@@ -4,8 +4,8 @@
     <RootNamespace>Work.Connor.Protobuf.ProtocGenDebugJson</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.9.1" />
-    <PackageReference Include="Grpc.Tools" Version="2.23.0" PrivateAssets="All" />
+    <PackageReference Include="Google.Protobuf" Version="3.13.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.31.0" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup>
     <Protobuf Include="../proto/google/protobuf/compiler/plugin.proto" GrpcServices="None" Link="Protos/plugin.proto" />
