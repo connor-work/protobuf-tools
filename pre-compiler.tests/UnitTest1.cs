@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace pre_compiler.tests
+namespace Work.Connor.Protobuf.PreCompiler.Tests
 {
     public class UnitTest1
     {

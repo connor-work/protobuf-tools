@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>pre_compiler.tests</RootNamespace>
+    <RootNamespace>Work.Connor.Protobuf.PreCompiler.Tests</RootNamespace>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace pre_compiler
+namespace Work.Connor.Protobuf.PreCompiler
 {
     public class Class1
     {

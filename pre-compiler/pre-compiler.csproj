@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>pre_compiler</RootNamespace>
+    <RootNamespace>Work.Connor.Protobuf.PreCompiler</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
