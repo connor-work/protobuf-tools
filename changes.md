@@ -68,3 +68,10 @@ This file tracks significant changes to the project setup that are not easily re
     dotnet add pre-compiler.tests reference pre-compiler
     ```
 
+12. Added first protobuf reference using `dotnet-grpc` to the `protoc-gen-debug-json` project. Further reference additions do not need to be tracked here. Note that this tool silently fails when invoked from the top level with `--project` reference (we consider this a bug).
+
+    ```powershell
+    cd protoc-gen-debug-json
+    dotnet grpc add-file --services None --access Public ../proto/google/protobuf/compiler/plugin.proto
+    ```
+
