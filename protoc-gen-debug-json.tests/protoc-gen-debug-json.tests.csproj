@@ -19,4 +19,11 @@
     <ProjectReference Include="..\protoc-gen-debug-json\protoc-gen-debug-json.csproj" />
   </ItemGroup>
 
+  <Target Name="CopyProtobufTools" AfterTargets="Build">
+    <ItemGroup>
+      <ProtobufTools Include="$(PkgGoogle_Protobuf_Tools)/tools/**/*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(ProtobufTools)" DestinationFolder="$(TargetDir)/Google.Protobuf.Tools/tools/%(RecursiveDir)" SkipUnchangedFiles="true" />
+  </Target>
+
 </Project>
