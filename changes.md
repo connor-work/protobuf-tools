@@ -75,3 +75,12 @@ This file tracks significant changes to the project setup that are not easily re
     dotnet grpc add-file --services None --access Public ../proto/google/protobuf/compiler/plugin.proto
     ```
 
+13. Recreated .NET Core project `protoc-gen-debug-json` as a Console Application.
+
+    ```powershell
+    dotnet sln remove protoc-gen-debug-json
+    rm -rf protoc-gen-debug-json
+    dotnet new console --language C`# --name protoc-gen-debug-json --framework netcoreapp3.1 --output protoc-gen-debug-json
+    dotnet sln add protoc-gen-debug-json
+    ```
+
